@@ -1,3 +1,4 @@
 #!/usr/bin/env node
 
-console.log('Hello, Hexlet!');
+import greeting from './cli.js';
+greeting();

@@ -2,8 +2,8 @@
   "name": "@hexlet/code",
   "type": "module",
   "version": "1.0.0",
-  "description": "Hexlet project 'Mind games'",
-  "main": "index.js",
+  "description": "Hexlet project 'Brain games'",
+  "main": "brain-games.js",
   "bin": {
     "brain-games": "bin/brain-games.js"
   },
@@ -23,5 +23,10 @@
   "dependencies": {
     "lodash": "^4.17.20",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   }
 }

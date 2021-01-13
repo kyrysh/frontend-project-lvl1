@@ -11,11 +11,16 @@ jobs:
   lint:
     # Set the type of machine to run on
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
 
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
 
-      # Runs the Super-Linter action
-      - name: eslint tests
-        uses: make lint
+      # Runs the eslint through the command: make lint (npx eslint .) action
+        run: make lint

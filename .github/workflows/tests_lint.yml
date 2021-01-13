@@ -27,13 +27,6 @@ jobs:
         # The Node.js version to configure
         with:
           node-version: ${{ matrix.node-version }}
-      - name: npm install
-        # Install project
-        run: |
-          make install
-        # Add environment variables
-        env:
-          CI: true
       - name: Run linter
         # Run Linter
         run: |
@@ -46,5 +39,4 @@ jobs:
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
         with:
-          coverageCommand: make test-coverage
           debug: true

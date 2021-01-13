@@ -23,4 +23,5 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       # Runs the eslint through the command: make lint (npx eslint .) action
+      - name: tests_eslint
         run: make lint

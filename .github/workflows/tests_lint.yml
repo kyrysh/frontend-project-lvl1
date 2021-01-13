@@ -1,31 +1,32 @@
-name: tests-lint
+name: tests lint
 
-# Description of a the event when the code is changed in the repository
-on: 
+# Trigger the workflow on push or pull request
+on:
   - push
 
-# Set of actions, which should be done
 jobs:
   build:
-    # Set the type of machine to run on
+
+    # The type of machine to run the job on
     runs-on: ubuntu-latest
 
     strategy:
-    #Node versions list
+      # Node versions list
       matrix:
         node-version: [14.x]
 
     steps:
-      # Check-out repository under GitHub workspace https://github.com/actions/checkout
+        # Check-out repository under GitHub workspace
+        # https://github.com/actions/checkout
       - uses: actions/checkout@v2
-      # Step's name
+        # Step's name
       - name: Use Node.js ${{ matrix.node-version }}
-      # Configures the node version used on GitHub-hosted runners https://github.com/actions/setup-node
-      uses: actions/setup-node@v1
-      # The Node.js version to configure
-      with:
-        node-version: ${{ matrix.node-version }}
-
+        # Configures the node version used on GitHub-hosted runners
+        # https://github.com/actions/setup-node
+        uses: actions/setup-node@v1
+        # The Node.js version to configure
+        with:
+          node-version: ${{ matrix.node-version }}
       - name: npm install
         # Install project
         run: |

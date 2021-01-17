@@ -6,3 +6,6 @@
 
 ### Eslinter tests status:
 [![Eslinter tests](https://github.com/kyrysh/frontend-project-lvl1/workflows/tests%20lint/badge.svg)](https://github.com/kyrysh/frontend-project-lvl1/actions)
+
+### Demonstration for Brain Even Game
+https://asciinema.org/a/hvX0rEOuQRdaEFcu38NT0bygC

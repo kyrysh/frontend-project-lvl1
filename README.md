@@ -12,3 +12,5 @@
 [Demonstration for Brain Even Game](https://asciinema.org/a/hvX0rEOuQRdaEFcu38NT0bygC)
 
 [Demonstration for Brain Calc Game](https://asciinema.org/a/CHtq90DqRBQCAa95Q9yzl9m4v)
+
+[Demonstration for Brain GCD Game](https://asciinema.org/a/8Z32AGh3ZxbclnHeSpFmXSxsz)

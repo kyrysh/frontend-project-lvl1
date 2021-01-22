@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import game from './src/index.js';
 
-import { brainCalcGameRule, getBrainCalcGameQuestion, getBrainCalcGameRightAnswer } from './games/brainCalcGame.js';
+import { calcRule, getCalcQuestion, getCalcRightAnswer } from './games/brainCalcGame.js';
 
-game(brainCalcGameRule, getBrainCalcGameQuestion, getBrainCalcGameRightAnswer);
+game(calcRule, getCalcQuestion, getCalcRightAnswer);

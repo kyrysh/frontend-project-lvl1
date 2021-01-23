@@ -17,3 +17,4 @@
 
 [Demonstration for Brain Progression Game](https://asciinema.org/a/qghDAKvVfLHQGndhFUfyDLQhQ)
 
+[Demonstration for Brain Progression Game](https://asciinema.org/a/aasviIIJqyg4xQRF5HNhAhBU2)

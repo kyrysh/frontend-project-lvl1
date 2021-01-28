@@ -43,4 +43,4 @@
 
 #### Video Demonstration of all games (with win and loose cases)
 
-![Alt text](https://github.com/kyrysh/frontend-project-lvl1/blob/main/demo/brainGamesDemo.svg)
+[![asciicast](https://asciinema.org/a/Vt8FSRTVtDn30VFVlgOvbwFJa.svg)](https://asciinema.org/a/Vt8FSRTVtDn30VFVlgOvbwFJa)

@@ -17,7 +17,7 @@
 * Progression --> `$ brain-progression` --> User needs to find the missing number in the given arithmetical progression.
 * Even --> `$ brain-even` --> User needs to determine is given number even.
 * GCD --> `$ brain-gcd` --> User needs to determine the greatest common divider for the given two numbers.
-* Prime --> `$ brain-orime` --> User needs to determine is given number prime.
+* Prime --> `$ brain-prime` --> User needs to determine is given number prime.
 
 
 ## Demonstration

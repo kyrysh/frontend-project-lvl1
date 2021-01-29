@@ -1,10 +1,9 @@
 import getRandomIntInclusive from '../utils/randomIntGenerator.js';
 import runGame from '../index.js';
 
-const GCDdescription = 'What is Find the greatest common divisor of given numbers.';
+const description = 'What is Find the greatest common divisor of given numbers.';
 
 // finding greatest common divisor (GCD) of 2 integers with the help of Euclid's algorithm
-
 const findGCD = (number1, number2) => {
   let num1 = number1;
   let num2 = number2;
@@ -26,10 +25,9 @@ const getGCDdata = () => {
   const question = `${number1} ${number2}`;
   const answer = String(findGCD(number1, number2));
 
-  const data = [question, answer];
-  return data;
+  return [question, answer];
 };
 
 export default () => {
-  runGame(GCDdescription, getGCDdata);
+  runGame(description, getGCDdata);
 };

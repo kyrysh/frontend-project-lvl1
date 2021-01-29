@@ -1,7 +1,7 @@
 import getRandomIntInclusive from '../utils/randomIntGenerator.js';
 import runGame from '../index.js';
 
-const primeDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (number) => {
   if (number < 2) {
@@ -19,10 +19,9 @@ const getPrimeData = () => {
   const question = getRandomIntInclusive(1, 100);
   const answer = isPrime(question) ? 'yes' : 'no';
 
-  const primeData = [question, answer];
-  return primeData;
+  return [question, answer];
 };
 
 export default () => {
-  runGame(primeDescription, getPrimeData);
+  runGame(description, getPrimeData);
 };

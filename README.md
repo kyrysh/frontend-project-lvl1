@@ -4,43 +4,17 @@
 [![Eslinter tests](https://github.com/kyrysh/frontend-project-lvl1/workflows/tests%20lint/badge.svg)](https://github.com/kyrysh/frontend-project-lvl1/actions)
 
 ## Description
-"Brain Games" is a set of five **console games**, built on a basis of popular mobile applications for brain training.
+"Brain Games" is a **set of five console games** (Even, Calculator, Prime, GCD, Progression), built on a basis of popular mobile applications for brain training.
 
 **General Rules**
 - Each game asks questions and waits for the User's right answer. 
 - After three successfull attempts the game is completed. 
-- Wrong answers finish the game and prompts to replay.
+- Wrong answers finish the game and prompt to replay.
 
+## Games' Desciption and Demos (asciinemas)
 
-## List of games
-* Calculator --> `$ brain-calc` --> User needs to calculate the given arithmetical expressions.
-* Progression --> `$ brain-progression` --> User needs to find the missing number in the given arithmetical progression.
-* Even --> `$ brain-even` --> User needs to determine is given number even.
-* GCD --> `$ brain-gcd` --> User needs to determine the greatest common divider for the given two numbers.
-* Prime --> `$ brain-prime` --> User needs to determine is given number prime.
-
-
-## Demonstration
-
-#### Progression Game Example
-```
- $ brain-progression
- Welcome to the Brain Game!
- What number is missing in this progression?
- May I have your name? Victoria
- Hello, Victoria!
- Question: 14 .. 18 20 22 24 26 28
- Your answer: 16 # The User enters the answer
- Correct!
- Question: 5 6 7 8 9 .. 11 12
- Your answer: 10 # The User enters the answer
- Correct!
- Question: 12 15 18 21 .. 27 30 33
- Your answer: 24 # The User enters the answer
- Correct!
- Congratulations, Victoria!
-```
-
-#### Video Demonstration of all games (with win and loose cases)
-
-[![asciicast](https://asciinema.org/a/Vt8FSRTVtDn30VFVlgOvbwFJa.svg)](https://asciinema.org/a/Vt8FSRTVtDn30VFVlgOvbwFJa)
+| Even | Calculator | Prime | GCD | Progression
+|:-----:|:-----:|:-----:|:-----:|:-----:
+| `$ brain-even` | `$ brain-calc` | `$ brain-prime` | `$ brain-gcd` |`$ brain-progression`
+| User needs to determine is given number even. | User needs to calculate the given arithmetical expressions. | User needs to determine is given number prime. | User needs to determine the greatest common divider for the given two numbers. | User needs to find the missing number in the given arithmetical progression.
+| [![asciicast](https://asciinema.org/a/JnJupIqPhnk4N27KWM6ooXJLJ.svg)](https://asciinema.org/a/JnJupIqPhnk4N27KWM6ooXJLJ) | [![asciicast](https://asciinema.org/a/7Reu5H7SIlRb5hZeeIWNFXlHh.svg)](https://asciinema.org/a/7Reu5H7SIlRb5hZeeIWNFXlHh) | [![asciicast](https://asciinema.org/a/AysIDxoWUR0x6uAMJMlD8seYf.svg)](https://asciinema.org/a/AysIDxoWUR0x6uAMJMlD8seYf) | [![asciicast](https://asciinema.org/a/WvEciJxQndPLlodayquYhPuV9.svg)](https://asciinema.org/a/WvEciJxQndPLlodayquYhPuV9) | [![asciicast](https://asciinema.org/a/20YDrKZAljB4NQ7ULrp3gS09x.svg)](https://asciinema.org/a/20YDrKZAljB4NQ7ULrp3gS09x)

@@ -20,7 +20,7 @@ const getCalcData = () => {
   const number1 = getRandomIntInclusive(0, 20);
   const number2 = getRandomIntInclusive(0, 20);
   const operators = ['+', '-', '*'];
-  const randomOperator = operators[getRandomIntInclusive(0, 2)];
+  const randomOperator = operators[getRandomIntInclusive(0, operators.length)];
 
   const question = `${number1} ${randomOperator} ${number2}`;
   const answer = String(calculateExpression(number1, randomOperator, number2));

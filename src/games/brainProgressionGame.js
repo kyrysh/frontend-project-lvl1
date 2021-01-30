@@ -6,8 +6,8 @@ const description = 'What number is missing in the arithmetic progression?';
 
 const createProgression = (firstNumber, progressionDifference, progressionLength) => {
   const progression = [];
-  for (let i = 1; i <= progressionLength; i += 1) {
-    const currentNumber = firstNumber + (i - 1) * progressionDifference;
+  for (let i = 0; i <= progressionLength; i += 1) {
+    const currentNumber = firstNumber + (i * progressionDifference);
     progression.push(currentNumber);
   }
   return progression;
@@ -20,7 +20,7 @@ const getProgressionData = () => {
 
   const progression = createProgression(firstNumber, progressionDifference, progressionLength);
 
-  const hiddenNumberIndex = getRandomIntInclusive(0, (progressionLength - 1));
+  const hiddenNumberIndex = getRandomIntInclusive(0, progressionLength - 1);
   const answer = String(progression[hiddenNumberIndex]);
 
   progression[hiddenNumberIndex] = '..';
